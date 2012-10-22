@@ -1,6 +1,5 @@
 var _last = 0
 var _count = 1
-var LAST
 
 module.exports = 
 function () {
@@ -13,9 +12,6 @@ function () {
 
   _last = t
 
-  if(_t === LAST)
-    throw new Error('LAST:' + LAST + ',' + _t)
-  LAST = _t
   return _t
 }
 
