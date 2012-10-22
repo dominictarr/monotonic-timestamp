@@ -1,10 +1,10 @@
 {
-  "name": "timestamp",
+  "name": "monotonic-timestamp",
   "version": "0.0.1",
-  "homepage": "https://github.com/dominictarr/timestamp",
+  "homepage": "https://github.com/dominictarr/monotonic-timestamp",
   "repository": {
     "type": "git",
-    "url": "git://github.com/dominictarr/timestamp.git"
+    "url": "git://github.com/dominictarr/monotonic-timestamp.git"
   },
   "dependencies": {
   },
