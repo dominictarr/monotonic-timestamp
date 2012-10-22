@@ -9,10 +9,9 @@
   "dependencies": {
   },
   "devDependencies": {
-    "tap": "0.3.0"
   },
   "scripts": {
-    "test": "tap test"
+    "test": "node test/index.js"
   },
   "author": "'Dominic Tarr' <dominic.tarr@gmail.com> (http://dominictarr.com)",
   "license": "MIT"  
