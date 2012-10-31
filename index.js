@@ -19,7 +19,7 @@ function timestamp() {
   // If time returned is same as in last call, adjust it by
   // adding 1 / 1000-th of the number in counter. Also counter
   // is incremented so that next call get's adjusted properly.
-  if (_last === time) adjusted += ((_count++) / 1000)
+  if (_last === time) adjusted += _count++ / (_count + 999)
   // If last time was different reset timer back to `1`.
   else _count = 1
   
