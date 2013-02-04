@@ -30,7 +30,7 @@ function timestamp() {
   **/
   if (_last === time)  {
     do {
-      adjusted = time + (_count++ / (_count + 999))
+      adjusted = time + ((_count++) / (_count + 999))
     } while (adjusted === _adjusted)
     _adjusted = adjusted
   }
