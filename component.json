@@ -1,0 +1,4 @@
+{
+  "name": "monotonic-timestamp",
+  "scripts": ["index.js"]
+}
