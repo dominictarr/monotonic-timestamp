@@ -1,18 +1,16 @@
 {
   "name": "monotonic-timestamp",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "homepage": "https://github.com/dominictarr/monotonic-timestamp",
   "repository": {
     "type": "git",
     "url": "git://github.com/dominictarr/monotonic-timestamp.git"
   },
-  "dependencies": {
-  },
-  "devDependencies": {
-  },
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "test": "node test/index.js"
   },
   "author": "'Dominic Tarr' <dominic.tarr@gmail.com> (http://dominictarr.com)",
-  "license": "MIT"  
+  "license": "MIT"
 }
