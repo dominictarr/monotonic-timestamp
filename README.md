@@ -34,6 +34,8 @@ pack it into a string!
 timestamp().toString(36) 
 ```
 
+if you want a constant-length string, you can use [monotonic-timestamp-base36](https://github.com/nathan7/monotonic-timestamp-base36)
+
 of course, if you are using a binary protocol, 
 it will be cheaper to use the float...
 
